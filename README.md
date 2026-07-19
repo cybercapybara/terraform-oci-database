@@ -8,7 +8,7 @@ compute models, auto-scaling and Always Free provisioning.
 
 ```hcl
 module "database" {
-  source = "github.com/cybercapybara/terraform-oci-database"
+  source = "github.com/moveeeax/terraform-oci-database"
 
   compartment_id = var.compartment_id
   display_name   = "prod-adb"
